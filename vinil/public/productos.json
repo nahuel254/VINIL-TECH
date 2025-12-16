@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Remera Oversize",
+    "price": 12000,
+    "image": "/images/airb.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/bandch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/DAISIES.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/billiee.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/Dawn Fm.webp"
+  },
+  {
+    "id": 6,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/gota.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/gus.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/kank.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/metallll.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/ramma.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/rau.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/saz 2.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/unver.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Buzo Hoodie",
+    "price": 18000,
+    "image": "/images/tiago.jpg"
+  }
+]

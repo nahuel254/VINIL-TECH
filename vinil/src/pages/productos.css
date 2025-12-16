@@ -1,0 +1,143 @@
+.products {
+  padding: 5rem 2rem;
+}
+
+body {
+  background-color: black;
+}
+
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* CARD */
+.producto-card {
+  flex: 0 0 calc((100% - 3rem) / 4);
+  max-width: calc((100% - 3rem) / 4);
+  cursor: pointer;
+}
+
+/* IMAGEN */
+.image-wrapper {
+  background: #ffffff;
+  width: 100%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.producto-card:hover img {
+  transform: scale(1.05);
+}
+
+/* INFO */
+.product-info {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.product-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.product-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* BOTÓN ICONO */
+.add-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #fff;
+}
+
+.add-btn svg {
+  width: 22px;
+  height: 22px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.add-btn:hover svg {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
+.status {
+  text-align: center;
+  padding: 4rem;
+}
+
+.error {
+  color: red;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.modal-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}
